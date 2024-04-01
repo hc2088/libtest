@@ -1,0 +1,43 @@
+{
+  "name": "Libtest",
+  "version": "1.0.0",
+  "summary": "libtest",
+  "homepage": "http://igit.58corp.com/house_team/libtest",
+  "description": "#libtest",
+  "license": {
+    "type": "58license",
+    "text": "\n"
+  },
+  "header_dir": "LibTest",
+  "authors": {
+    "huchu": "huchu@58.com",
+    "company": "58app@58.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "git@igit.58corp.com:house_team/libtest.git",
+    "branch": "1.0.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreGraphics"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2",
+    "OTHER_LDFLAGS": "-ObjC -lxml2"
+  },
+  "source_files": [
+    "libtest/**/**/*.{h,m}",
+    "libtest/**/*.{h,m}",
+    "libtest/*.{h,m}"
+  ],
+  "public_header_files": [
+    "libtest/**/**/*.h",
+    "libtest/**/*.h",
+    "libtest/*.h"
+  ]
+}

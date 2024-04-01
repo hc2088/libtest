@@ -1,0 +1,6 @@
+framework module LibTest {
+  umbrella header "Libtest-umbrella.h"
+
+  export *
+  module * { export * }
+}

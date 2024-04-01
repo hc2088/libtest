@@ -11,6 +11,8 @@
 		371B87462BBA5E5D003796B9 /* libtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371B873B2BBA5E5D003796B9 /* libtest.framework */; };
 		371B874B2BBA5E5D003796B9 /* libtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 371B874A2BBA5E5D003796B9 /* libtestTests.m */; };
 		371B874C2BBA5E5D003796B9 /* libtest.h in Headers */ = {isa = PBXBuildFile; fileRef = 371B873E2BBA5E5D003796B9 /* libtest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371B87572BBA5F40003796B9 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 371B87562BBA5F40003796B9 /* Test.m */; };
+		371B87582BBA5F40003796B9 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 371B87552BBA5F40003796B9 /* Test.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		371B873F2BBA5E5D003796B9 /* libtest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = libtest.docc; sourceTree = "<group>"; };
 		371B87452BBA5E5D003796B9 /* libtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		371B874A2BBA5E5D003796B9 /* libtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libtestTests.m; sourceTree = "<group>"; };
+		371B87552BBA5F40003796B9 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		371B87562BBA5F40003796B9 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				371B873E2BBA5E5D003796B9 /* libtest.h */,
 				371B873F2BBA5E5D003796B9 /* libtest.docc */,
+				371B87552BBA5F40003796B9 /* Test.h */,
+				371B87562BBA5F40003796B9 /* Test.m */,
 			);
 			path = libtest;
 			sourceTree = "<group>";
@@ -92,6 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371B87582BBA5F40003796B9 /* Test.h in Headers */,
 				371B874C2BBA5E5D003796B9 /* libtest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				371B87402BBA5E5D003796B9 /* libtest.docc in Sources */,
+				371B87572BBA5F40003796B9 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@ target 'test' do
 
   # Pods for test
 
+  pod 'Libtest',  :path=>"libtest"
+
 
 end
 
@@ -24,7 +26,7 @@ post_install do |installer|
       config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
       config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= [
         '$(inherited)',
-        'AUDIO_SESSION_MICROPHONE=0',
+#        'AUDIO_SESSION_MICROPHONE=1',
       ]
     end
   end
